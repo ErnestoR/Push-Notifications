@@ -41,6 +41,13 @@
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		7680817D740D46CABFD1EC40 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D2FAB0E45E4B59A1E207E4 /* CDVDevice.m */; };
 		0BD55FD3A66D4269915CD6F3 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B72D2ADDC87E494A8C12CADF /* CDVLogger.m */; };
+		B020B0C188144DAFA4C96033 /* PushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C035B95815143BAB0AB484C /* PushNotification.m */; };
+		7724A97C74A7480EBF36917A /* Pushwoosh in Resources */ = {isa = PBXBuildFile; fileRef = 6C6E20EC127D461BA2A36926 /* Pushwoosh */; };
+		969A195375854C9189B98203 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E7153B5EEC46D0AE534600 /* Security.framework */; };
+		8269935E425447F1980DAFAF /* Storekit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C449DA96565447BDB757214B /* Storekit.framework */; };
+		69DF56BA0118436194A71C8D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981619E035FC4CA1B1EE7351 /* CoreLocation.framework */; };
+		CFAB41F5843443E3B5091320 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C288D194B242DAA7389A4C /* libstdc++.dylib */; };
+		7C028384E78B47F98E646818 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 073B1CF29B1D4E8A9A0C81A6 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +117,15 @@
 		6C92C5A2E0E24DFCA32D528A /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		B72D2ADDC87E494A8C12CADF /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "org.apache.cordova.console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		1A72B687ADE04922B230E8EC /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "org.apache.cordova.console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		3C035B95815143BAB0AB484C /* PushNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PushNotification.m"; path = "com.pushwoosh.plugins.pushwoosh/ios/PushNotification.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6C6E20EC127D461BA2A36926 /* Pushwoosh */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "Pushwoosh"; path = "PushTest/Plugins/com.pushwoosh.plugins.pushwoosh/Pushwoosh"; sourceTree = "<group>"; fileEncoding = 4; };
+		73EC50B20DF24291A735B042 /* PushNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PushNotification.h"; path = "com.pushwoosh.plugins.pushwoosh/ios/PushNotification.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9722465F0E6B415B8755264D /* PushNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PushNotificationManager.h"; path = "com.pushwoosh.plugins.pushwoosh/ios/PushNotificationManager.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		80E7153B5EEC46D0AE534600 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		C449DA96565447BDB757214B /* Storekit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Storekit.framework"; path = "System/Library/Frameworks/Storekit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		981619E035FC4CA1B1EE7351 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		A9C288D194B242DAA7389A4C /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		073B1CF29B1D4E8A9A0C81A6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +137,12 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+				7724A97C74A7480EBF36917A /* Pushwoosh in Resources */,
+				969A195375854C9189B98203 /* Security.framework in Frameworks */,
+				8269935E425447F1980DAFAF /* Storekit.framework in Frameworks */,
+				69DF56BA0118436194A71C8D /* CoreLocation.framework in Frameworks */,
+				CFAB41F5843443E3B5091320 /* libstdc++.dylib in Frameworks */,
+				7C028384E78B47F98E646818 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +215,12 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				6C6E20EC127D461BA2A36926 /* Pushwoosh */,
+				80E7153B5EEC46D0AE534600 /* Security.framework */,
+				C449DA96565447BDB757214B /* Storekit.framework */,
+				981619E035FC4CA1B1EE7351 /* CoreLocation.framework */,
+				A9C288D194B242DAA7389A4C /* libstdc++.dylib */,
+				073B1CF29B1D4E8A9A0C81A6 /* libz.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,6 +240,9 @@
 				6C92C5A2E0E24DFCA32D528A /* CDVDevice.h */,
 				B72D2ADDC87E494A8C12CADF /* CDVLogger.m */,
 				1A72B687ADE04922B230E8EC /* CDVLogger.h */,
+				3C035B95815143BAB0AB484C /* PushNotification.m */,
+				73EC50B20DF24291A735B042 /* PushNotification.h */,
+				9722465F0E6B415B8755264D /* PushNotificationManager.h */,
 			);
 			name = Plugins;
 			path = "PushTest/Plugins";
@@ -398,6 +429,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				7680817D740D46CABFD1EC40 /* CDVDevice.m in Sources */,
 				0BD55FD3A66D4269915CD6F3 /* CDVLogger.m in Sources */,
+				B020B0C188144DAFA4C96033 /* PushNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +472,10 @@
 				);
 				PRODUCT_NAME = "PushTest";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PushTest/Plugins/com.pushwoosh.plugins.pushwoosh\"",
+				);
 			};
 			name = Debug;
 		};
@@ -469,6 +505,10 @@
 				);
 				PRODUCT_NAME = "PushTest";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PushTest/Plugins/com.pushwoosh.plugins.pushwoosh\"",
+				);
 			};
 			name = Release;
 		};
