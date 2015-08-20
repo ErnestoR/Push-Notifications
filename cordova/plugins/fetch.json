@@ -18,5 +18,12 @@
             "url": "https://github.com/Pushwoosh/pushwoosh-phonegap-3.0-plugin.git",
             "subdir": "."
         }
+    },
+    "cordova-plugin-geolocation": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git",
+            "subdir": "."
+        }
     }
 }

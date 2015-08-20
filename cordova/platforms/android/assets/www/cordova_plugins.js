@@ -20,7 +20,8 @@ module.exports.metadata =
 {
     "cordova-plugin-device": "1.0.2-dev",
     "org.apache.cordova.console": "0.2.13",
-    "com.pushwoosh.plugins.pushwoosh": "3.6.2"
+    "com.pushwoosh.plugins.pushwoosh": "3.6.2",
+    "cordova-plugin-geolocation": "1.0.2-dev"
 }
 // BOTTOM OF METADATA
 });

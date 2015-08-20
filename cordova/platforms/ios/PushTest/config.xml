@@ -23,6 +23,9 @@
     <feature name="PushNotification">
         <param name="ios-package" value="PushNotification" />
     </feature>
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
     <name>PushTest</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

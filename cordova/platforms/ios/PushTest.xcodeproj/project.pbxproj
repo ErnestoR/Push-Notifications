@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0BD55FD3A66D4269915CD6F3 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B72D2ADDC87E494A8C12CADF /* CDVLogger.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -49,6 +48,7 @@
 		B020B0C188144DAFA4C96033 /* PushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C035B95815143BAB0AB484C /* PushNotification.m */; };
 		CFAB41F5843443E3B5091320 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C288D194B242DAA7389A4C /* libstdc++.dylib */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		1C97E24B9DDF47869D36ADD0 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC503524B8A454ABF00065C /* CDVLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +125,8 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = PushTest/config.xml; sourceTree = "<group>"; };
+		FCC503524B8A454ABF00065C /* CDVLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocation.m"; path = "cordova-plugin-geolocation/CDVLocation.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B0AF2EBBFFEA4683BFAA7AE6 /* CDVLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocation.h"; path = "cordova-plugin-geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +244,8 @@
 				3C035B95815143BAB0AB484C /* PushNotification.m */,
 				73EC50B20DF24291A735B042 /* PushNotification.h */,
 				9722465F0E6B415B8755264D /* PushNotificationManager.h */,
+				FCC503524B8A454ABF00065C /* CDVLocation.m */,
+				B0AF2EBBFFEA4683BFAA7AE6 /* CDVLocation.h */,
 			);
 			name = Plugins;
 			path = PushTest/Plugins;
@@ -434,6 +438,7 @@
 				7680817D740D46CABFD1EC40 /* CDVDevice.m in Sources */,
 				0BD55FD3A66D4269915CD6F3 /* CDVLogger.m in Sources */,
 				B020B0C188144DAFA4C96033 /* PushNotification.m in Sources */,
+				1C97E24B9DDF47869D36ADD0 /* CDVLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
