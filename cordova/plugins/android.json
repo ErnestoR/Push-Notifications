@@ -23,6 +23,9 @@
         },
         "org.apache.cordova.console": {
             "PACKAGE_NAME": "com.ernestor.pushTest"
+        },
+        "com.pubnub.cordova.pubnub": {
+            "PACKAGE_NAME": "com.ernestor.pushTest"
         }
     },
     "dependent_plugins": {}

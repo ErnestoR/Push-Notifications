@@ -1,0 +1,18 @@
+{
+    "version": "3.7.10",
+    "name": "com.pubnub.cordova.pubnub",
+    "cordova_name": "pubnub",
+    "description": "PubNub Real-time push service in the cloud",
+    "keywords": [
+        "pubsub",
+        "publish",
+        "subscribe",
+        "messaging",
+        "realtime"
+    ],
+    "platforms": [
+        "android",
+        "ios"
+    ],
+    "engines": []
+}
