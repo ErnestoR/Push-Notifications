@@ -101,7 +101,7 @@ function onPushwooshAndroidInitialized(pushToken) {
 	//pushNotification.setSoundType(1);
 	//pushNotification.setVibrateType(1);
 
-	pushNotification.setLightScreenOnNotification(false);
+	pushNotification.setLightScreenOnNotification(true);
 
 	//setting list tags
 	//pushNotification.setTags({"MyTag":["hello", "world"]});
@@ -118,6 +118,13 @@ function onPushwooshAndroidInitialized(pushToken) {
 			console.warn('setTags failed');
 		}
 	);
+
+	pushNotification.startLocationTracking(function(status) {
+			console.warn('startLocationTracking success', status);
+		},
+		function(status) {
+			console.warn('startLocationTracking failed', status);
+	});
 
 	//Pushwoosh Android specific method that cares for the battery
 	//pushNotification.startGeoPushes();

@@ -39,7 +39,7 @@ function registerPushwooshIOS() {
 
 	//initialize the plugin
 	pushNotification.onDeviceReady({
-		pw_appid: "ENTER_PUSHWOOSH_APPID"
+		pw_appid: "F5315-110E8"
 	});
 
 	//register for pushes
@@ -71,7 +71,7 @@ function onPushwooshiOSInitialized(pushToken) {
 		}
 	);
 
-	//example how to get push token at a later time 
+	//example how to get push token at a later time
 	pushNotification.getPushToken(
 		function(token) {
 			console.warn('push token device: ' + token);
@@ -86,5 +86,10 @@ function onPushwooshiOSInitialized(pushToken) {
 	);
 
 	//start geo tracking.
-	//pushNotification.startLocationTracking();
+	pushNotification.startLocationTracking(function(status) {
+			console.warn('startLocationTracking success', status);
+		},
+		function(status) {
+			console.warn('startLocationTracking failed', status);
+	});
 }
